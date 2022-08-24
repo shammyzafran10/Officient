@@ -15,7 +15,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Officient</title>
+    <title><?= $title; ?></title>
 
     <meta name="description" content="" />
 
@@ -55,4 +55,5 @@
 
   <body>
     <!-- Layout wrapper -->
-    
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
