@@ -34,9 +34,12 @@
     <link rel="stylesheet" href="<?= base_url() ?>/template/assets/vendor/fonts/boxicons.css" />
 
     <!-- Core CSS -->
+
+    
     <link rel="stylesheet" href="<?= base_url() ?>/template/assets/vendor/css/core.css" class="template-customizer-core-css" />
     <link rel="stylesheet" href="<?= base_url() ?>/template/assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
     <link rel="stylesheet" href="<?= base_url() ?>/template/assets/css/demo.css" />
+    <link rel="stylesheet" href="<?= base_url() ?>/template/assets/css/bootstrap-icons-1.9.1/bootstrap-icons.css" />
 
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="<?= base_url() ?>/template/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
