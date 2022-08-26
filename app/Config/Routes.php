@@ -36,6 +36,17 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/absensi', 'Karyawan::absensi');
+
+$routes->get('/Data-Karyawan', 'Karyawan::index');
+$routes->get('/Tambah-Karyawan', 'Karyawan::tambah');
+$routes->post('/simpan', 'Karyawan::simpan');
+$routes->get('/Edit-Karyawan' , 'Karyawan::edit');
+
+$routes->get('/izin', 'Karyawan::izin');
+$routes->get('/laporan', 'Karyawan::laporan');
+$routes->get('/pengumuman', 'Home::pengumuman');
+
 
 /*
  * --------------------------------------------------------------------
